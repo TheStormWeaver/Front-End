@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img width="60%" src="https://nakov.com/wp-content/uploads/2012/03/Software-University-logo-horizontal.png" alt="Storm">
+  <img width="50%" src="https://softuni.bg/files/courses/html_css12.jpg" alt="course">
 </p>
 
 # За курса
