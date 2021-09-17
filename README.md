@@ -1,9 +1,26 @@
-# Front-End
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com)
 
-Front-End Softuni course September 2021 - December 2021
+# За курса
 
-Front-End - https://softuni.bg/modules/95/front-end/1304
+Целта на курса **"HTML & CSS"** е да положи основни знания по уеб технологии и по-конкретно запознаване с **HTML5** и **CSS3**. Придобиват се начални знания в уеб разработката, уеб браузъри, инструменти за **HTML / CSS / DOM** разработка и се развиват практически умения за използване на езика за описание на уеб съдържание **(HTML)** и езика за стилизиране на уеб съдържание **(CSS)**.
 
-HTML & CSS - https://softuni.bg/trainings/3530/html-and-css-september-2021/internal
+Изучават се основните HTML тагове, параграфи, списъци, таблици, форми, контроли и таговете за семантичен HTML. Набляга се на основните CSS селектори и стилове, работа с класове, презентационни правила, правила за позициониране и изглед _(layout)_ в **CSS**. Покриват се последните новости на **HTML5** и **CSS3** стандарта.
 
-ReactJS - https://softuni.bg/trainings/3497/reactjs-november-2021/internal
+Курсът набляга на практически упражнения с **HTML** и **CSS**, чрез които ви въвлича в реални проекти за изработка на уеб страници, имплементация на фрагменти от сайтове и създаване на цялостни модерни уеб сайтове с добра визия, съвременна структура и мобилна поддръжка.
+
+# Умения
+
+- Изучаване на основите на типографията
+- Стилизиране на уеб сайтове със CSS
+- Основни познания в изграждането на уеб страници
+- Създаване на адаптивен (responsive) уеб дизайн
+- Създаване на съвременни уеб сайтове
+- Възможност за създаване на статични уеб страници
+
+# Course Links
+
+[Front-End Course Link](https://softuni.bg/modules/95/front-end/1304)
+
+[HTML & CSS Course Link](https://softuni.bg/trainings/3530/html-and-css-september-2021/internal)
+
+[ReactJs Course Link](https://softuni.bg/trainings/3497/reactjs-november-2021/internal)
