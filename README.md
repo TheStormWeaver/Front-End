@@ -35,8 +35,8 @@
 [ReactJs Course Link](https://softuni.bg/trainings/3497/reactjs-november-2021/internal)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Storm-Weaver-blue" alt="storm" width="10%">
-  <img src="https://img.shields.io/badge/Open%20Source-Project-red" alt="project" width="13%">
-  <img src="https://img.shields.io/badge/Work-in%20progress-yellow" alt="progress" width="11%">
-  <img src="https://img.shields.io/badge/License-MT-blueviolet" alt="license" width="8%">
+  <img src="https://img.shields.io/badge/Storm-Weaver-blue" alt="storm">
+  <img src="https://img.shields.io/badge/Open%20Source-Project-red" alt="project">
+  <img src="https://img.shields.io/badge/Work-in%20progress-yellow" alt="progress">
+  <img src="https://img.shields.io/badge/License-MT-blueviolet" alt="license">
 </p>
