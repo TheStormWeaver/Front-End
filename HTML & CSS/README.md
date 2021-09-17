@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img width="50%" src="https://softuni.bg/files/courses/html_css12.jpg" alt="course">
+  <img width="70%" src="https://softuni.bg/files/courses/html_css12.jpg" alt="course">
 </p>
 
 # За курса
