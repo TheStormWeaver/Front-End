@@ -1,10 +1,3 @@
-
-<p align="center">
-  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Love">
-  <img src="https://forthebadge.com/images/badges/uses-html.svg" alt="html">
-  <img src="https://forthebadge.com/images/badges/uses-css.svg" alt="css">
-</p>
-
 <p align="center">
   <img width="70%" src="https://softuni.bg/files/courses/html_css12.jpg" alt="course">
 </p>
