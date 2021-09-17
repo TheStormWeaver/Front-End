@@ -5,6 +5,10 @@
   <img src="https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg" alt="Storm">
 </p>
 
+<p align="center">
+  <img width="45%" src="https://softuni.bg/Files/UserFiles/ImageGallery/softuni-2.0.jpg" alt="Storm">
+</p>
+
 # За курса
 
 Целта на курса **"HTML & CSS"** е да положи основни знания по уеб технологии и по-конкретно запознаване с **HTML5** и **CSS3**. Придобиват се начални знания в уеб разработката, уеб браузъри, инструменти за **HTML / CSS / DOM** разработка и се развиват практически умения за използване на езика за описание на уеб съдържание **(HTML)** и езика за стилизиране на уеб съдържание **(CSS)**.
