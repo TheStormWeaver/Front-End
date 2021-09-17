@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img width="45%" src="https://softuni.bg/Files/UserFiles/ImageGallery/softuni-2.0.jpg" alt="Storm">
+  <img width="45%" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Logo_Software_University_%28SoftUni%29_-_blue_background.png" alt="Storm">
 </p>
 
 # За курса
