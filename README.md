@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img width="45%" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Logo_Software_University_%28SoftUni%29_-_blue_background.png" alt="Storm">
+  <img width="60%" src="https://nakov.com/wp-content/uploads/2012/03/Software-University-logo-horizontal.png" alt="Storm">
 </p>
 
 # За курса
