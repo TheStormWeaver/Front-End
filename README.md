@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Storm">
-  <img src="https://forthebadge.com/images/badges/uses-js.svg" alt="Storm">
-  <img src="https://forthebadge.com/images/badges/uses-html.svg" alt="Storm">
-  <img src="https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg" alt="Storm">
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Love">
+  <img src="https://forthebadge.com/images/badges/uses-js.svg" alt="js">
+  <img src="https://forthebadge.com/images/badges/uses-html.svg" alt="html">
+  <img src="https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg" alt="works">
 </p>
 
 <p align="center">
@@ -33,3 +33,10 @@
 [HTML & CSS Course Link](https://softuni.bg/trainings/3530/html-and-css-september-2021/internal)
 
 [ReactJs Course Link](https://softuni.bg/trainings/3497/reactjs-november-2021/internal)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Storm-Weaver-blue" alt="storm">
+  <img src="https://img.shields.io/badge/Open%20Source-Project-red" alt="project">
+  <img src="https://img.shields.io/badge/Work-in%20progress-yellow" alt="progress">
+  <img src="https://img.shields.io/badge/License-MT-blueviolet" alt="license">
+</p>
