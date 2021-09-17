@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img width="80%" src="https://nakov.com/wp-content/uploads/2012/03/Software-University-logo-horizontal.png" alt="Storm">
+  <img width="90%" src="https://nakov.com/wp-content/uploads/2012/03/Software-University-logo-horizontal.png" alt="Storm">
 </p>
 
 # За курса
