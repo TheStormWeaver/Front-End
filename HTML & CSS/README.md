@@ -1,5 +1,7 @@
 <p align="center">
+<a href="https://softuni.bg/trainings/3530/html-and-css-september-2021">
   <img width="100%" src="https://softuni.bg/Files/Courses/imgonline-com-ua-compressed-AZ7woueWHz.jpg" alt="course">
+  </a>
 </p>
 
 # За курса
@@ -21,9 +23,9 @@
 
 # Course Links
 
-[Front-End Course Link](https://softuni.bg/modules/95/front-end/1304)
+- [Front-End Course Link](https://softuni.bg/modules/95/front-end/1304)
 
-[HTML & CSS Course Link](https://softuni.bg/trainings/3530/html-and-css-september-2021/internal)
+- [HTML & CSS Course Link](https://softuni.bg/trainings/3530/html-and-css-september-2021/internal)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Storm-Weaver-blue" alt="storm" width="10%">
