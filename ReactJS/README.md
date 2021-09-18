@@ -1,5 +1,7 @@
 <p align="center">
+<a href="https://softuni.bg/trainings/3497/reactjs-november-2021">
   <img width="100%" src="https://softuni.bg/Files/Publications/2020/06/efa9985efdd3e73d6ee0b3a0907410a057c98f0c_105730497.png" alt="course">
+  </a>
 </p>
 
 # За курса
@@ -16,9 +18,9 @@
 
 # Course Links
 
-[Front-End Course Link](https://softuni.bg/modules/95/front-end/1304)
+- [Front-End Course Link](https://softuni.bg/modules/95/front-end/1304)
 
-[ReactJS Course Link](https://softuni.bg/trainings/3497/reactjs-november-2021/internal)
+- [ReactJS Course Link](https://softuni.bg/trainings/3497/reactjs-november-2021/internal)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Storm-Weaver-blue" alt="storm" width="10%">
