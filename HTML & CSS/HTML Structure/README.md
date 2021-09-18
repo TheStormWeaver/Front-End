@@ -1,5 +1,5 @@
-• Semantic Markup;
-• HTML Tags;
-• Forms;
-• Tables;
-• Microdata.
+- Semantic Markup
+- HTML Tags
+- Forms
+- Tables
+- Microdata
