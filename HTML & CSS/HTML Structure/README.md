@@ -1,5 +1,0 @@
-- Semantic Markup
-- HTML Tags
-- Forms
-- Tables
-- Microdata
