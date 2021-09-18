@@ -33,16 +33,9 @@
 
 # Курсове в модула
 
-- HTML & CSS
-- ReactJS
-
-# Course Links
-
-[Front-End Course Link](https://softuni.bg/modules/95/front-end/1304)
-
-[HTML & CSS Course Link](https://softuni.bg/trainings/3530/html-and-css-september-2021/internal)
-
-[ReactJs Course Link](https://softuni.bg/trainings/3497/reactjs-november-2021/internal)
+- [Front-End Course Link](https://softuni.bg/modules/95/front-end/1304)
+- [HTML & CSS Course Link](https://softuni.bg/trainings/3530/html-and-css-september-2021/internal)
+- [ReactJs Course Link](https://softuni.bg/trainings/3497/reactjs-november-2021/internal)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Storm-Weaver-blue" alt="storm" width="10%">
