@@ -8,9 +8,9 @@
 <h1 align="center">
 Front-End
 </h1>
-<h3 align="center">
+<h4 align="center">
 The repo contains almost every Lab and Excercise Homework from the Softuni Front-End course September 2021.
-</h3>
+</h4>
 
 <p align="center">
 <a href="https://softuni.bg/">
