@@ -5,18 +5,18 @@
   <img src="https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg" alt="works">
 </p>
 
+<p align="center">
+<a href="https://softuni.bg/">
+  <img width="100%" src="https://nakov.com/wp-content/uploads/2012/03/Software-University-logo-horizontal.png" alt="course">
+  </a>
+</p>
+
 <h1 align="center">
 Front-End
 </h1>
 <h4 align="center">
 The repo contains almost every Lab and Excercise Homework from the Softuni Front-End course September 2021.
 </h4>
-
-<p align="center">
-<a href="https://softuni.bg/">
-  <img width="100%" src="https://nakov.com/wp-content/uploads/2012/03/Software-University-logo-horizontal.png" alt="course">
-  </a>
-</p>
 
 # За курса
 
