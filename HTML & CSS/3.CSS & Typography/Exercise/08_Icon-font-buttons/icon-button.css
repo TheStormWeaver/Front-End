@@ -1,0 +1,29 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding: 20px;
+}
+
+i {
+  padding-right: 5px;
+}
+
+.green {
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 13px 15px;
+  background-color: rgb(54, 132, 0);
+  color: rgb(251, 251, 251);
+}
+
+.orange {
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 13px 15px;
+  background-color: rgb(250, 132, 20);
+  color: rgb(251, 251, 251);
+}
