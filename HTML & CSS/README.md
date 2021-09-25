@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://softuni.bg/trainings/3530/html-and-css-september-2021">
-  <img width="100%" src="https://softuni.bg/Files/Courses/imgonline-com-ua-compressed-AZ7woueWHz.jpg" alt="course">
+  <img width="100%" src="https://www.lambdatest.com/blog/wp-content/uploads/2018/11/JPG-2.jpg" alt="course">
   </a>
 </p>
 
