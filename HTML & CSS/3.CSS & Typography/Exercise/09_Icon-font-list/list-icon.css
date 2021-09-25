@@ -1,13 +1,14 @@
 @import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
-
-i {
-  margin-right: 5px;
+html {
+  font: 14px/1.5 Verdana, sans-serif;
 }
 
-.container {
-  margin: 50px;
+body {
+  margin: 0 auto;
+  padding: 3.5em 2.5em;
 }
 
 .icons {
   list-style-type: none;
+  padding-bottom: 1em;
 }
