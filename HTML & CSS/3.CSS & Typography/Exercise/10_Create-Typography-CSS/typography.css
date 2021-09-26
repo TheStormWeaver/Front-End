@@ -4,6 +4,10 @@ html {
   line-height: 1.5;
 }
 
+body {
+  padding: 50px 100px;
+}
+
 h1,
 h2,
 h3,
@@ -13,18 +17,32 @@ h6 {
   font-family: Georgia, serif;
 }
 
-table,
-td,
-th {
-  border-width: 1px;
-  border-color: rgb(221, 221, 221);
-  border-style: solid;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 40%;
+table, th, td {
+  border-collapse: collapse;
 }
 
-th {
+th, td {
+  padding: 5px;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid lightgray;
+  width: 100%;
+}
+
+thead {
   background-color: rgb(204, 204, 204);
+  text-align: left;
+  padding: 5px;
+}
+
+tbody td {
+  border-right: 1px solid lightgray;
+}
+
+tbody tr {
+  border-bottom: 1px solid lightgray;
 }
 
 table tr:nth-child(odd) td {
@@ -40,7 +58,8 @@ blockquote {
   font-style: italic;
   border-left: 3px solid rgb(221, 221, 221);
   margin: 20px;
-  padding-left: 100px;
+  padding-left: 40px;
+  padding-top: 0.2px;
 }
 
 .move {
