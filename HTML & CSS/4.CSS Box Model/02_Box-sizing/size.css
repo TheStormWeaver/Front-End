@@ -1,0 +1,15 @@
+* {
+  box-sizing: inherit;
+}
+
+section {
+  width: 250px;
+  height: 250px;
+  border: 5px dotted rgb(3, 194, 115);
+  text-align: center;
+}
+
+p {
+  border: 5px solid rgb(9, 54, 202);
+  padding: 20px;
+}
