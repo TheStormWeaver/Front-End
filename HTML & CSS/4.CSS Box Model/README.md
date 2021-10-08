@@ -1,5 +1,4 @@
 # Content
-
 - CSS Box Model;
 - Block and Inline Elements;
 - Width and Height;
