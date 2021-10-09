@@ -1,0 +1,127 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+  padding: 30px 150px;
+}
+
+blockquote,
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  padding-top: 20px;
+}
+
+header {
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+
+header nav {
+  display: inline-block;
+  margin: 30px;
+}
+
+header nav ul li {
+  margin: 15px;
+  display: inline-block;
+}
+
+header nav ul li a {
+  color: rgb(0, 102, 0);
+  text-decoration: none;
+}
+
+.title {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  width: 70%;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 12px 3px rgb(0 0 0 / 25%);
+  border: 3px solid black;
+  padding: 10px;
+}
+
+li {
+  list-style: square;
+}
+
+aside li a {
+  text-decoration: none;
+  color: rgb(62, 206, 62);
+}
+
+/*
+Aligning with display: inline-block;
+*/
+/*
+main, aside {
+  display: inline-block;
+}
+
+main {
+  width: 70%;
+  padding-right: 10px;
+}
+
+aside {
+  width: 20%;
+  vertical-align: top;
+}
+
+*/
+
+/*
+Aligning with float;
+*/
+
+main {
+  float: left;
+  width: 60%;
+  padding-right: 10px;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  vertical-align: top;
+}
+
+.firstImg {
+  float: right;
+  margin: 0 0 5px 15px;
+}
+
+.secondImg {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 5px;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 3px solid lightgrey;
+  padding-left: 40px;
+  width: 40%;
+  float: right;
+}
+
+blockquote p {
+  text-align: right;
+}
