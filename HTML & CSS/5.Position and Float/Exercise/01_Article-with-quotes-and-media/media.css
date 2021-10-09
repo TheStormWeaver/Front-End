@@ -1,0 +1,76 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: rgb(238, 238, 238);
+  margin: 96px auto;
+  padding: 0px 80px;;
+  max-width: 1080px;
+}
+
+.site-title {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 2.6em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+header {
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 12px 3px rgb(0 0 0 / 25%);
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.intro-art {
+  display: inline-block;
+  width: 74%;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 3px solid lightgrey;
+  padding-left: 40px;
+  width: 40%;
+}
+
+blockquote p {
+  text-align: right;
+  font-style: italic;
+}
+
+.blockquote-sec blockquote, .blockquote-sec .b-txt {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.blockquote-sec blockquote {
+  width: 38%;
+}
+
+.blockquote-sec .b-txt {
+  width: 46%;
+}
+
+.second-ctn {
+  display: inline-block;
+  width: 74%;
+}
+
+.firstImg {
+  margin: 0 0 5px 15px;
+}
+
+.secondImg {
+  margin-right: 30px;
+  margin-bottom: 5px;
+}
