@@ -1,0 +1,43 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+li a {
+  background: #eee;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+}
+
+li i {
+  font-size: 35px;
+  color: #262626;
+}
+
+li i:hover {
+  cursor: pointer;
+}
+
+.fb:hover i {
+  color: #3a5997;
+}
+
+.twit:hover i {
+  color: #01aced;
+}
+
+.gp:hover i {
+  color: #dd4b39;
+}
+
+.lin:hover i {
+  color: #007BB6;
+}
+
+.insta:hover i {
+  color: #517fa4;
+}
