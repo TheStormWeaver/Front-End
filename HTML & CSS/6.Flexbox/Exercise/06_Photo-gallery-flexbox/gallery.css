@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EEEEEE;
+  margin: 0;
+  display: flex;
+}
+
+.gallery {
+  margin: 80px 280px;
+  display: flex;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pictures li {
+  border: 5px solid black;
+  background: white;
+  padding: 30px 20px;
+  margin: 15px;
+  list-style: none;
+  display: flex;
+  align-items:center;
+}
