@@ -1,0 +1,38 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  margin: 80px;
+}
+
+.nav-content {
+  border-bottom: 2px solid rgb(0,0,0);
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 46px;
+} 
+
+.nav-content {
+  display: flex;
+}
+
+.nav-content nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li{
+  margin: 30px 10px 0px 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: rgb(0, 153, 0);
+}
