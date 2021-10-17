@@ -1,0 +1,43 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(238, 238, 238);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+header, main {
+  padding: 20px;
+}
+
+.nav-content {
+  border-bottom: 2px solid rgb(0,0,0);
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 46px;
+} 
+
+footer {
+  color: rgb(255, 255, 255);
+  background: rgb(102, 102, 102);
+  padding: 20px 0px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+/*
+Sticky footer with position absolute: (with already declared hight of the body) 
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+*/
