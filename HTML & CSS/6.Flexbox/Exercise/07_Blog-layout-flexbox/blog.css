@@ -1,0 +1,107 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+  margin: 0;
+}
+
+.page {
+  margin: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+blockquote,
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  padding-top: 20px;
+}
+
+header {
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+
+main {
+  max-width: 60%;
+}
+
+.title {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 12px 3px rgb(0 0 0 / 25%);
+  border: 3px solid black;
+  padding: 10px;
+}
+
+li {
+  list-style: square;
+}
+
+aside li a {
+  text-decoration: none;
+  color: rgb(0, 153, 0);
+}
+
+main {
+  flex-grow: 3;
+}
+
+aside {
+  flex-grow: 1;
+}
+
+.firstImg {
+  float: right;
+  margin: 15px 90px 10px 46px;
+}
+
+.secondImg {
+  float: left;
+  margin: 15px;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 3px solid lightgrey;
+  padding-left: 40px;
+}
+
+blockquote p {
+  text-align: right;
+}
+
+.bloq {
+  display: flex;
+  align-items: center;
+}
+
+.bloq p {
+  flex-basis: 140%;
+}
+
+.bloq blockquote {
+  flex-basis: 98%;
+}
+
+.main-aside {
+  display: flex;
+}
