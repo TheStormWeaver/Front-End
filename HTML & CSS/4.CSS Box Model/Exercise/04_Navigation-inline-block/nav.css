@@ -2,6 +2,10 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
+body {
+  margin: 80px;
+}
+
 header h1 {
   display: inline-block;
   font-size: 46px;
