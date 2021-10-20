@@ -1,12 +1,8 @@
 # Content
-- Introduction to Node.js;
-- Event Loop;
-- Modules;
-- Request and Response Wrapper;
-- Node.js Web Server.
-
+- Flexbox;
+- Properties for the Parent;
+- Properties for the Children.
 
 # Materials
-- [Intro to NodeJS Presentation](https://github.com/TheStormWeaver/Front-End/files/7383350/01.Intro-to-NodeJS.pptx)
-- [Cat Shelter Workshop NodeJS Exercise Document](https://github.com/TheStormWeaver/Front-End/files/7383351/01.Cat-Shelter-Workshop-NodeJS.docx)
-
+- [Flexbox presentation](https://github.com/TheStormWeaver/Front-End/files/7352099/06.FlexBox.pptx)
+- [Flexbox exercise document](https://github.com/TheStormWeaver/Front-End/files/7352106/06.Flexbox-Exercise.docx)
