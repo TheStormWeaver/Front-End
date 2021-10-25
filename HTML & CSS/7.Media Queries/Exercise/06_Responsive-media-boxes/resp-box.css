@@ -1,0 +1,61 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+
+button {
+  background-color: rgb(0, 153, 0);
+  border-radius: 6px;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+}
+
+
+img {
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -60%);
+  max-width: 35%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 6px 0px grey;
+}
+
+.card-ctn {
+  padding: 20px 15px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.card-ctn p {
+  width: 80%;
+  text-align: left;
+}
+
+.card-ctn h3, card-ctn p {
+  text-align: left;
+}
