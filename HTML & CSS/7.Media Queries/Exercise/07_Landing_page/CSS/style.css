@@ -1,0 +1,270 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("https://cdn.discordapp.com/attachments/885474280333258793/900707233749422100/what-the-hex.png");
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title h1 {
+  color: purple;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.title p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 25px 10px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.intro h2 {
+  font-size: 33px;
+  flex-basis: 100%;
+  margin-bottom: 0;
+}
+
+.intro p {
+  display: inline-block;
+  font-size: 26px;
+  width: 55%;
+  margin-top: 0;
+}
+
+.intro i {
+  display: inline-block;
+  font-size: 170px;
+  margin-left: 90px;
+  width: 35%;
+}
+
+.intro button {
+  padding: 10px 20px;
+  background: white;
+  border-radius: 5px;
+}
+
+.team {
+  width: 73%;
+}
+
+.testimonials {
+  width: 80%;
+}
+
+.team h2,
+.testimonials h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.team h2::after,
+.testimonials h2::after,
+.sign-up h2::after {
+  content: "";
+  width: 7%;
+  background: black;
+  height: 4px;
+  display: block;
+  margin: 20px auto;
+}
+
+.team ul,
+.testimonials ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team ul li,
+.testimonials ul li {
+  list-style: none;
+}
+
+.team ul li {
+  margin: 22px 108px 0;
+}
+
+.team li img,
+.testimonials li img {
+  border-radius: 120px;
+}
+
+.team li h4,
+.testimonials li h4 {
+  margin-bottom: 8px;
+}
+
+.team ul .role {
+  margin-top: 0;
+}
+
+.team ul li h4,
+.team ul li p,
+.testimonials ul li p,
+.testimonials ul li h4 {
+  text-align: center;
+}
+
+.testimonials ul li {
+  width: 30%;
+  margin: 20px;
+}
+
+.testimonials .card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonials .nickname {
+  margin-top: 5px;
+}
+
+.sign-up {
+  background-color: rgb(96, 46, 123);
+  padding: 60px;
+  text-align: center;
+}
+
+.sign-up h2 {
+  color: white;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.sign-up input {
+  width: 15%;
+  padding: 8px 15px;
+}
+
+.sign-up button {
+  padding: 8px 15px;
+  background: white;
+  border-radius: 5px;
+}
+
+footer {
+  box-shadow: 1px 1px 16px 0 black;
+  background: rgb(251, 251, 251);
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+footer .f1 {
+  margin: 20px 80px;
+}
+
+footer .f2,
+footer .f3 {
+  margin: 20px 120px;
+}
+
+footer .f1 {
+  width: 16%;
+}
+
+footer .f2 ul,
+footer .f3 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 110px;
+  width: 210%;
+}
+
+footer .f2 ul li,
+footer .f3 ul li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+@media all and (max-width: 600px) {
+  .team ul li {
+    margin: 0px 8px 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .team {
+    width: 100%;
+  }
+
+  .testimonials ul li {
+    width: 30%;
+    margin: 0 44px;
+  }
+
+  footer {
+    justify-content: start;
+    padding: 0;
+  }
+
+  footer .f1,
+  footer .f2,
+  footer .f3 {
+    margin: 0px 30px;
+  }
+
+  footer .f2 ul,
+  footer .f3 ul {
+    width: 100%;
+  }
+
+  .sign-up input {
+    width: 55%;
+  }
+
+  .intro {
+    width: 90%;
+  }
+
+  .intro i {
+    font-size: 220px;
+    margin-left: 30px;
+    width: 20%;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav::after {
+    content: "Menu";
+    text-align: center;
+  }
+
+  header {
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+}
