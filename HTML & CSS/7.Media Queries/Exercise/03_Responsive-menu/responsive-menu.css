@@ -1,0 +1,93 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #ebebeb;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  margin: 60px 100px;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  background-color: white;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+nav ul li {
+  list-style: none;
+  background-color: #2d2d2d;
+  padding: 20px;
+  margin: 0 6px;
+  border-radius: 6px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  display: none;
+}
+
+@media all and (max-width: 1000px) {
+  header {
+    flex-direction: column;
+  }
+
+  header h1 {
+    padding-left: 10px;
+  }
+
+  header ul {
+    flex-direction: column;
+    margin: 0;
+    border-top: 2px solid black;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  button {
+    color: #2d2d2d;
+    background-color: #ebebeb;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 16px;
+    display: block;
+  }
+
+  button i {
+    color: #2d2d2d;
+  }
+}
+
+@media all and (max-width: 500px) {
+  h1 {
+    text-align: center;
+  }
+
+  button {
+    display: block;
+  }
+}
