@@ -1,0 +1,36 @@
+@media all and (max-width: 600px) {
+  table th {
+    display: none;
+  }
+
+  table tbody td {
+    display: flex;
+  }
+
+  table tbody td:before {
+    display: block;
+    margin-right: 1em;
+    font-weight: 900;
+    font-size: 1.1em;
+  }
+
+  thead tr td, tbody tr td {
+    font-weight: normal;
+  }
+
+  table tbody td:first-child:before {
+    content: "First Name";
+  }
+
+  table tbody td:nth-child(2):before {
+    content: "Last Name";
+  }
+
+  table tbody td:last-child:before {
+    content: "Job Title";
+  }
+
+  table td:not(:last-child) {
+    border-bottom: 1px solid #cccccc;
+  }
+}
