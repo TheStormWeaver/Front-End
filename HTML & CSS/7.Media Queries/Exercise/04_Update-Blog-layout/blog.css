@@ -1,0 +1,200 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+  margin: 80px;
+}
+
+.page {
+  margin: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+blockquote,
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+}
+
+header {
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  background-color: white;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+nav ul li {
+  list-style: none;
+  background-color: #2d2d2d;
+  padding: 20px;
+  margin: 0 6px;
+  border-radius: 6px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  max-width: 60%;
+}
+
+.title {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 12px 3px rgb(0 0 0 / 25%);
+  border: 3px solid black;
+  padding: 10px;
+}
+
+li {
+  list-style: square;
+}
+
+aside li a {
+  text-decoration: none;
+  color: rgb(0, 153, 0);
+}
+
+main {
+  flex-grow: 3;
+}
+
+aside {
+  flex-grow: 1;
+  padding-left: 130px;
+}
+
+.firstImg {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.secondImg {
+  margin-right: 30px;
+  margin-bottom: 5px;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 3px solid lightgrey;
+  padding-left: 40px;
+}
+
+blockquote p {
+  text-align: right;
+}
+
+.bloq {
+  display: flex;
+  align-items: center;
+}
+
+.bloq p {
+  flex-basis: 140%;
+}
+
+.bloq blockquote {
+  flex-basis: 98%;
+}
+
+.main-aside {
+  display: flex;
+}
+
+.intro-art {
+  display: inline-block;
+  width: 74%;
+}
+
+.first-sec {
+  display: inline-block;
+  width: 72%;
+}
+
+.second-sec {
+  display: inline-block;
+  width: 72%;
+}
+
+@media all and (max-width: 1000px) {
+  .page {
+    margin: 0;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  header nav {
+    width: 50%;
+  }
+
+  header ul {
+    margin: 0;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    margin: 5px;
+  }
+}
+
+@media all and (min-width: 500px){
+  body{
+    font-size: 14px;
+  }
+}
+
+@media all and (min-width: 600px){
+  body{
+    font-size: 16px;
+  }
+}
+
+@media all and (min-width: 800px){
+  body{
+    font-size: 18px;
+  }
+}
+
+@media all and (min-width: 1300px){
+  body{
+    font-size: 21px;
+  }
+}
+
+@media all and (min-width: 1800px){
+  body{
+    font-size: 23px;
+  }
+}
