@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 1px 1px 15px grey;
+  padding: 10px 80px;
+  align-items: center;
+}
+
+@media all and (max-width: 1200px) {
+  .nav {
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  padding-right: 60px;
+}
+
+.nav-menu li {
+  list-style: none;
+  margin: 12px;
+}
+
+@media all and (max-width: 1000px) {
+  .nav-menu {
+    flex-direction: column;
+  }
+
+  .nav-menu li {
+    margin: 7px auto;
+  }
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: rgb(79, 81, 107);
+}
+
+.nav-menu-btn {
+  background-color: rgb(155, 93, 198);
+  border-radius: 18px;
+  border: none;
+  color: white;
+  padding: 10px 14px;
+}
+
+.header-certificate {
+  padding: 30px 80px;
+  color: rgb(79, 81, 107);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.header-certificate-ctn {
+  margin-right: 100px;
+}
+
+.header-certificate-ctn-subtitle {
+  color: grey;
+  font-style: italic;
+  margin: 5px;
+}
+
+.header-certificate-img {
+  width: 95%;
+  position: relative;
+}
+
+.header-certificate-img img {
+  width: 500px;
+}
+
+.header-certificate-img::before {
+  content: "";
+  background-color: rgb(79, 81, 107);
+  width: 650px;
+  height: 586px;
+  position: absolute;
+  border-radius: 50%;
+  z-index: -2;
+  top: -305px;
+  left: -30px;
+}
+
+.header-certificate-img::after {
+  background: url("./images/award.svg");
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 300px;
+  top: -45px;
+  left: 460px;
+  background-repeat: no-repeat;
+}
+
+@media all and (max-width: 1000px) {
+  .header-certificate-img::before,
+  .header-certificate-img::after {
+    display: none;
+  }
+
+  .header-certificate {
+    flex-direction: column;
+    padding: 30px 60px;
+  }
+
+  .header-certificate-img {
+    margin-top: 50px;
+  }
+
+  .header-certificate-ctn {
+    margin-right: 0;
+  }
+}
+
+.license {
+  padding: 30px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(20, 22, 43);
+  color: white;
+  position: relative;
+}
+
+.license-ctn {
+  width: 56%;
+}
+
+.license-img {
+  width: 480px;
+}
+
+.license-img img {
+  width: 350px;
+  position: relative;
+  top: 60px;
+}
+
+@media all and (max-width: 1000px) {
+  .license {
+    flex-direction: column;
+  }
+
+  .license-ctn {
+    width: 100%;
+  }
+
+  .license-img {
+    width: 100%;
+  }
+
+  .license-img img {
+    top: 10px;
+  }
+}
+
+.career-assistance {
+  padding: 30px 85px;
+  display: flex;
+  color: rgb(79, 81, 107);
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.career-assistance h2 {
+  margin-bottom: 25px;
+}
+
+.career-assistance p {
+  line-height: 26px;
+}
+
+.career-assistance-img {
+  padding-right: 50px;
+
+}
+
+.career-assistance-img img {
+  border-radius: 12px;
+
+}
+
+.career-assistance-ctn-btn {
+  background: white;
+  border: 1px solid rgb(155, 93, 198);
+  color: rgb(155, 93, 198);
+  border-radius: 18px;
+  padding: 12px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media all and (max-width: 1000px) {
+  .career-assistance {
+    flex-direction: column;
+    padding: 30px 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .career-assistance-img {
+    margin-top: 40px;
+    order: 2;
+  }
+
+  .career-assistance-ctn {
+    order: 1;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .header-certificate-img img {
+    width: 100%;
+  }
+
+  .license-img img {
+    width: 100%;
+  }
+
+  .career-assistance-img img {
+    width: 100%;
+  }
+}
+
+.footer {
+  background: rgb(43, 44, 58);
+  color: white;
+  padding: 30px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu-title {
+  font-weight: bold;
+  color: rgb(135, 75, 207);
+  margin: 0 0 15px 0;
+}
+
+.footer-menu-nav {
+  padding-left: 0;
+}
+
+.footer-menu-nav-item {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.footer-menu-nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-social-media {
+  margin-bottom: 15px;
+}
+
+.footer-social-media i {
+  font-size: 30px;
+  margin: 0 15px 0 0;
+}
+
+.footer-copyright-reserved {
+  font-size: 14px;
+}
+
+@media all and (max-width: 1000px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+}
