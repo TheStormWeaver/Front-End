@@ -1,0 +1,22 @@
+@media all and (max-width: 600px) {
+  .thumbnails {
+    flex-direction: column;
+  }
+
+  .thumbnails div {
+    width: 100%;
+  }
+
+  .thumbnails > div {
+    margin: 0 0 1.5em 0;
+  }
+
+  .thumbnails a {
+    margin: 0 0 1.5em 0;
+  }
+
+  .thumbnails a img {
+    max-height: 240px;
+    object-fit: cover;
+  }
+}
