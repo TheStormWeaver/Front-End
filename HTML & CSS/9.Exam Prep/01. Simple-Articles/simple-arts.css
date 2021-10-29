@@ -1,0 +1,78 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap");
+
+body {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+.price {
+  font-family: "Montserrat", sans-serif;
+}
+
+.ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  font-family: "Lato", sans-serif;
+}
+
+.ctn-textbox {
+  background-color: rgb(228, 244, 253);
+  margin-right: 65px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px grey;
+  padding: 25px 45px;
+}
+
+.ctn-textbox-list {
+  padding: 0;
+  margin: 0;
+}
+
+.ctn-textbox-item {
+  list-style: none;
+  padding: 8px 0;
+}
+
+.ctn-textbox-item i{
+  color: rgb(58, 171, 247);
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ctn-pricebox {
+  background-color: white;
+  border: 5px solid rgb(58, 171, 247);
+  border-radius: 10px;
+  text-align: center;
+  width: 27%;
+  padding: 70px 0;
+}
+
+.price {
+  color: rgb(58, 171, 247);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.ctn-pricebox-text {
+  margin: 30px 0;
+}
+
+.ctn-pricebox-button {
+  background-color: rgb(58, 171, 247);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 50px;
+}
