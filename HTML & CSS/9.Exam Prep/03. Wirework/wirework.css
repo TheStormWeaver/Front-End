@@ -1,0 +1,217 @@
+@import url(https://use.fontawesome.com/releases/v5.15.4/css/all.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+.wire-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 70px;
+  background: white;
+}
+
+.wire-header-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.wire-header-logo-title {
+  font-size: 40px;
+  padding-right: 25px;
+  position: relative;
+}
+
+.wire-header-logo-title::after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: grey;
+  position: absolute;
+  right: 10px;
+}
+
+.wire-header-logo-side-title {
+  color: grey;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.wire-header-nav-list {
+  padding-left: 0;
+  display: flex;
+}
+
+.wire-header-nav-list-item {
+  list-style: none;
+  background: lightgrey;
+  padding: 28px 50px;
+  margin: 0px 1px;
+}
+
+.wire-header-nav-list-item.active {
+  background: rgb(219, 59, 47);
+}
+
+.wire-header-nav-list-item-link.active {
+  color: white;
+}
+
+.wire-header-nav-list-item-link {
+  text-decoration: none;
+  color: black;
+}
+
+.intro-img {
+  width: 100%;
+}
+
+.intro-img img {
+  max-height: 800px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro-content {
+  background: rgb(219, 59, 47);
+  color: rgb(242, 197, 189);
+  text-align: center;
+  font-size: 22px;
+  padding: 80px 200px;
+  margin-top: -10px;
+}
+
+.intro-content-text a {
+  color: rgb(251, 237, 234);
+}
+
+.itembox {
+  background: rgb(56, 56, 56);
+  display: flex;
+  padding: 85px 40px;
+  text-align: center;
+}
+
+.itembox-img i {
+  background: rgb(219, 59, 47);
+  color: white;
+  padding: 30px;
+  font-size: 60px;
+}
+
+.itembox-item-title {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding: 10px 0 20px 0;
+}
+
+.itembox-item-title::after {
+  content: "";
+  width: 85%;
+  height: 1px;
+  background: rgb(108, 108, 108);
+  position: absolute;
+  left: 35px;
+  bottom: -14px;
+}
+
+.itembox-item-text {
+  margin-top: 15px;
+  padding: 0px 30px;
+  color: rgb(108, 108, 108);
+  font-size: 19px;
+}
+
+.banner-white {
+  padding: 90px;
+  text-align: center;
+}
+
+.banner-white-title {
+  color: rgb(108, 108, 108);
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.banner-white-subtitle {
+  color: rgb(162, 162, 162);
+  font-weight: 100;
+  font-size: 23px;
+  margin-top: 10px;
+}
+
+.banner-white-btn {
+  background: rgb(62, 155, 113);
+  color: white;
+  padding: 20px 60px;
+  border: none;
+  font-size: 23px;
+}
+
+
+.articlebox {
+  background: rgb(56, 56, 56);
+  display: flex;
+  padding: 85px 40px;
+  text-align: center;
+}
+
+.articlebox-img i {
+  background: rgb(219, 59, 47);
+  color: white;
+  padding: 30px;
+  font-size: 60px;
+}
+
+.articlebox-item-title {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding: 10px 0 20px 0;
+}
+
+.articlebox-item-text {
+  margin-top: 15px;
+  padding: 0px 30px;
+  color: rgb(108, 108, 108);
+  font-size: 19px;
+}
+
+.footer {
+  padding: 60px;
+  text-align: center;
+  background: rgb(62, 155, 113);
+  color: rgb(107, 183, 153);
+}
+
+.footer-copyright {
+  font-size: 20px;
+}
+
+.white-pink {
+  color: rgb(242, 197, 189);
+  font-weight: bold;
+}
+
+.white-green {
+  color: rgb(163, 214, 197);
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+  font-weight: bold;
+}
