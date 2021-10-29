@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  background: url("./images/hero-certificates.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-content {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 0px 85px;
+  padding: 10px 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 1px 1px 8px 0px grey;
+}
+
+.bar-nav-list {
+  display: flex;
+  padding: 0;
+}
+
+.bar-nav-list-item {
+  list-style: none;
+  margin: 10px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile {
+  background-color: rgb(57, 173, 247);
+  box-shadow: 1px 1px 10px 1px rgb(57 173 247);
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 0 0 0 5px;
+}
+
+.bar-logo-img {
+  width: 50%;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 60px 100px;
+}
+
+.banner-box {
+  padding: 20px;
+  margin: 15px 0 50px;
+  flex-basis: 45%;
+  background: rgb(40, 57, 75);
+  color: white;
+  border-radius: 10px;
+}
+
+.banner-box-text {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.banner-sidetext {
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(62, 77, 94);
+  position: relative;
+  top: 65px;
+}
+
+.banner-img {
+  display: inline-block;
+  margin-left: -3px;
+}
+
+.main-content,
+.main-banner {
+  margin: 0px 130px;
+  padding: 40px 60px;
+}
+
+.main-content-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.main-content-container {
+  background: rgb(244, 245, 247);
+  padding: 15px;
+  font-size: 19px;
+  border-radius: 10px;
+}
+
+.main-content-sidetext {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.main-banner-container {
+  background: linear-gradient(rgba(16, 16, 39, 0.6), rgba(16, 16, 39, 0.6)),url("./images/sign-up-prompt-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 70px;
+}
+
+.main-banner-text {
+  padding: 20px 0;
+}
+
+.main-banner-button1 {
+  background: white;
+  color: rgb(106, 191, 248);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 26px;
+  margin-right: 40px;
+}
+
+.main-banner-button1::after {
+  content: "";
+  width: 2px;
+  height: 5%;
+  background-color: white;
+  position: absolute;
+  right: 976px;
+  top: 1349px;
+}
+
+.main-banner-button2 {
+  background: transparent;
+  color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px 26px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 0px 190px;
+  padding: 30px 50px;
+  border-top: 1px solid black;
+}
+
+.footer-nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-nav-logo-img {
+  width: 30%;
+}
+
+.footer-nav-copyright-item {
+  margin-left: 15px;
+}
+
+.footer-bar-nav-list {
+  display: flex;
+  padding: 0;
+}
+
+.footer-bar-nav-list-item {
+  list-style: none;
+  margin: 10px 5px;
+}
