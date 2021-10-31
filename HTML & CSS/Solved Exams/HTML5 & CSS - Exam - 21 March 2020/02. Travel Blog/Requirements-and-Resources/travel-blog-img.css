@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@500&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Gelasio", serif;
+}
+
+header {
+  background: url("./images/map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.nav-logo img {
+  max-width: 90px;
+}
+
+.nav-list {
+  display: flex;
+  color: rgb(202, 202, 202);
+}
+
+.nav-list-item {
+  list-style: none;
+  margin: 0 26px;
+  font-size: 20px;
+}
+
+.map {
+  text-align: center;
+  padding-top: 164px;
+  padding-bottom: 100px;
+}
+
+.map-intro {
+  color: white;
+  font-size: 100px;
+  margin-bottom: 11px;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px black;
+}
+
+.map-btn {
+  background: rgb(13, 102, 148);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 26px;
+  font-size: 24px;
+}
+
+.banner {
+  background: rgb(225, 225, 225);
+  padding: 10px 190px 50px;
+}
+
+.banner-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 950px;
+}
+
+.banner-title {
+  color: rgb(83, 89, 92);
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.banner-box-item-pack-img {
+  max-height: 900px;
+}
+
+.banner-box-item-planning-img,
+.banner-box-item-budget-img {
+  max-height: 450px;
+}
+
+.banner-box-item-pack-img::before {
+  content: "How to pack effectively";
+  color: white;
+  font-size: 38px;
+  text-shadow: 1px 1px 10px black;
+  position: absolute;
+  top: 860px;
+  left: 330px;
+}
+
+.banner-box-item-planning-img::before {
+  content: "Plan your next trip like never before";
+  color: white;
+  font-size: 38px;
+  text-shadow: 1px 1px 10px black;
+  position: absolute;
+  left: 990px;
+}
+
+.banner-box-item-budget-img::before {
+  content: "Budget like a pro";
+  color: white;
+  position: absolute;
+  font-size: 38px;
+  text-shadow: 1px 1px 10px black;
+  top: 1610px;
+  left: 930px;
+}
+
+.banner-box-item-pack-img img {
+  width: 100%;
+  height: 900px;
+}
+
+.banner-box-item-planning-img img,
+.banner-box-item-budget-img img {
+  width: 100%;
+  height: 450px;
+}
+
+footer {
+  background: rgb(140, 140, 140);
+  padding: 40px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-nav-list1,
+.footer-nav-list2,
+.footer-nav-list3 {
+  display: flex;
+}
+
+.footer-nav-list-item {
+  color: rgb(203, 203, 203);
+  list-style: none;
+  padding: 0 16px;
+  font-size: 20px;
+  font-weight: 300;
+  border-right: 1px solid rgb(203, 203, 203);
+}
+
+.footer-nav-list-item:last-child {
+  border-right: none;
+}
