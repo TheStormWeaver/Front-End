@@ -1,0 +1,58 @@
+@media all and (max-width: 768px) {
+  .movie {
+    height: auto;
+  }
+
+  .movies {
+    margin: 10px 0 100px 0;
+  }
+
+  .main-movie {
+    display: block;
+  }
+
+  .main-movie ul {
+    display: block;
+    width: 100%;
+  }
+
+  .main-movie ul li {
+    padding: 0%;
+  }
+
+  .main-movie-poster {
+    display: none;
+  }
+
+  iframe {
+    width: 100%;
+    padding: 10%;
+  }
+
+}
+
+@media all and (max-width: 414px) {
+  iframe {
+    padding: 0;
+    width: 100%;
+  }
+
+  .movie-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movie {
+    width: 85%;
+  }
+
+  footer ul {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .ytp-impression-link {
+    position: relative;
+    display: none;
+  }
+}
