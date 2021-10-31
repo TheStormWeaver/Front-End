@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./image.jpg");
+  background-size: cover;
+}
+
+.login-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/* also works for centering:
+.login-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+*/
+
+.login-title {
+  color: white;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-name,
+.input-pass {
+  padding: 30px 65px 10px 35px;
+  background: white;
+  border: none;
+}
+
+.input-name i,
+.input-pass i {
+  color: grey;
+  font-size: 20px;
+}
+
+.input-name {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.input-name #name,
+.input-pass #password {
+  border: none;
+  margin-left: 30px;
+}
+
+.login-btn-container {
+  background: white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 20px 60px;
+  text-align: center;
+}
+
+.login-btn {
+  background: rgb(202, 0, 115);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  padding: 12px 60px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 18px;
+}
