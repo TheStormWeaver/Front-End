@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(246, 248, 249);
+  padding: 55px 60px 0;
+  border-radius: 6px;
+  display: flex;
+  margin: 0;
+}
+
+.banner-subtitle {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.banner-title {
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 17px;
+}
+
+.banner-text {
+  line-height: 27px;
+  color: rgb(119, 129, 138);
+  margin-bottom: 24px;
+}
+
+.banner-btn-blue {
+  background-color: rgb(95, 106, 255);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-right: 12px;
+  font-weight: bold;
+  box-shadow: 1px 1px 3px rgb(95, 106, 255);
+}
+
+.banner-btn-white {
+  background-color: rgb(246, 248, 249);
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.banner-img img {
+  width: 470px;
+  padding-left: 150px;
+}
