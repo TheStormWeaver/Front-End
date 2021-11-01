@@ -1,0 +1,231 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,500;1,300;1,500&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.banner {
+  background-color: rgb(239, 239, 239);
+  margin: 35px;
+}
+
+.banner-title {
+  font-weight: 100;
+  font-size: 60px;
+}
+
+.banner-text {
+  font-style: italic;
+  font-weight: 500;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+.intro-banner-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px;
+}
+
+.intro-banner-nav-item {
+  list-style: none;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.intro-banner-content {
+  display: flex;
+  align-items: center;
+}
+
+.intro-banner-container {
+  padding-left: 260px;
+  padding-bottom: 200px;
+}
+
+.intro-banner-content-text {
+  width: 73%;
+}
+
+.intro-banner-content-text::after {
+  content: "";
+  width: 1px;
+  height: 10%;
+  background-color: black;
+  position: absolute;
+  left: 296px;
+  top: 545px;
+}
+
+.camera-banner {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.camera-banner-title {
+  padding-left: 150px;
+}
+
+.camera-banner-title::before {
+  content: "";
+  height: 1px;
+  width: 5%;
+  background-color: black;
+  position: absolute;
+  left: 775px;
+  top: 967px;
+}
+
+.camera-banner-container {
+  width: 42%;
+  margin-left: 60px;
+}
+
+.camera-banner-img {
+  padding: 80px;
+}
+
+.camera-banner-text,
+.camera-banner-subtext {
+  padding-bottom: 15px;
+}
+
+.camera-banner-socials {
+  display: flex;
+  padding-left: 0%;
+}
+
+.camera-banner-social {
+  list-style: none;
+  margin: 13px;
+  font-size: 34px;
+  color: rgb(144, 144, 144);
+}
+
+.img-banner-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.bridge-banner {
+  display: flex;
+  align-items: center;
+}
+
+.bridge-banner-container {
+  padding-left: 100px;
+  padding-bottom: 220px;
+  width: 60%;
+}
+
+.bridge-banner-text {
+  width: 75%;
+}
+
+.bridge-banner-text::after {
+  content: "";
+  width: 1px;
+  height: 10%;
+  background-color: black;
+  position: absolute;
+  left: 136px;
+  top: 3003px;
+}
+
+.bridge-banner-img img {
+  width: 100%;
+  padding: 100px;
+}
+
+.photos-banner {
+  display: flex;
+  align-items: center;
+  padding: 80px;
+}
+
+.photos-banner-img2 {
+  position: absolute;
+  width: 46%;
+  top: 3420px;
+  left: 490px;
+}
+
+.photos-banner-img2 img {
+  padding: 80px 0;
+  width: 100%;
+}
+
+.photos-banner-img1 img {
+  width: 100%;
+  padding: 120px 0 100px 100px;
+}
+.photos-banner-img3 img {
+  padding: 120px 100px 100px 0;
+  width: 100%;
+}
+
+.foot-banner {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.foot-banner-text {
+  padding: 0px 281px;
+}
+
+.foot-banner-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 620px;
+}
+
+.foot-banner-form input {
+  background-color: rgb(239, 239, 239);
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.email,
+.subject {
+  width: 45%;
+  margin-left: 50px;
+}
+
+.foot-banner-form input.email {
+  padding: 10px;
+  margin: 0 29px 30px 0;
+}
+
+.foot-banner-form input.subject {
+  padding: 10px;
+  margin: 0 0 30px 29px;
+}
+
+.foot-banner-form input.message {
+  width: 100%;
+  padding: 15px 15px 80px 15px;
+}
+
+.foot-banner-form input.submit {
+  width: 100%;
+  background: rgb(17, 17, 17);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.foot-banner-copyright {
+  padding: 30px;
+}
