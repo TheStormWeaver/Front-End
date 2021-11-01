@@ -2,9 +2,9 @@
 - Includes the solved problems for the final exam
 
 # Structure: 3 problems for 4 hours
-- 1 - Slice a screenshot to HTML + CSS
-- 2 - Make a responsive page
-- 3 - Create a landing page from screenshot (header + menu + sidebar + form elements + footer)
+- Slice a screenshot to HTML + CSS
+- Make a responsive page
+- Create a landing page from screenshot (header + menu + sidebar + form elements + footer)
 
 # Materials 
 - (Link to the contest in judge)[https://judge.softuni.org/Contests/3242/HTML-CSS-Exam-30-October-2021]
