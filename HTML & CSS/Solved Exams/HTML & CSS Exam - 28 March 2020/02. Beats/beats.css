@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  line-height: 36px;
+}
+
+.nav {
+  padding: 25px;
+  background-color: white;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav .nav-item {
+  list-style: none;
+}
+
+.nav .nav-item a {
+  text-decoration: none;
+  color: rgb(157, 157, 157);
+  font-weight: bold;
+}
+
+.btn,
+.title,
+.nav-item {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: rgb(245, 0, 22);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 20px 50px;
+}
+
+.red {
+  color: red;
+}
+
+.main-headphones {
+  margin: 20px 160px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.main-headphones-ctn {
+  margin-bottom: 80px;
+}
+
+.main-headphones-ctn-title {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.main-headphones-ctn-text {
+  padding: 25px 0 35px 0;
+}
+
+.main-earbuds {
+  background-color: rgb(251, 252, 255);
+  display: flex;
+  align-items: center;
+  padding: 120px 30px;
+}
+
+.main-earbuds-img {
+  margin-left: 60px;
+}
+
+.main-earbuds-img img {
+  width: 150%;
+}
+
+.main-earbuds-ctn {
+  margin-left: 300px;
+}
+
+.main-earbuds-ctn-titles,
+.main-earbuds-ctn-text {
+  margin: 0px 0px 68px 158px;
+}
+
+.main-earbuds-ctn-title {
+  font-size: 100px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.main-earbuds-ctn-subtitle {
+  font-size: 30px;
+  margin-left: 140px;
+}
+
+.main-earbuds-ctn-price {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 60px;
+  vertical-align: middle;
+  margin-left: 140px;
+  margin-right: 50px;
+}
+
+.main-earbuds-ctn-text {
+  width: 42%;
+}
+
+.main.main-earbuds-ctn-button {
+  margin-left: 50px;
+}
+
+.main-slide {
+  background: rgb(87, 87, 87);
+  color: white;
+  padding: 40px 360px;
+  text-align: center;
+}
+
+.main-slide-logo {
+  vertical-align: middle;
+}
+
+.main-slide-maintext {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 45px;
+}
+
+.main-slide-sidetext {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.main-slide-sidetext::after {
+  content: "";
+  width: 25%;
+  background: white;
+  height: 1px;
+  display: block;
+  margin: 50px auto;
+}
+
+.main-banner {
+  display: flex;
+  align-items: center;
+  background: rgb(218, 218, 218);
+  height: 46em;
+  overflow: hidden;
+}
+
+.main-banner-img2 {
+  display: flex;
+  margin-left: 200px;
+}
+
+.main-banner-img1 img {
+  width: 900px;
+}
+
+.main-banner-img2 img {
+  width: 300px;
+}
+
+.main-banner-img2-ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.main-banner-img2-ctn-text1,
+.main-banner-img2-ctn-text2 {
+  font-size: 150px;
+  margin: 80px 0;
+}
+
+.main-banner-img2-ctn-text3 {
+  font-size: 55px;
+  margin: 35px 0;
+}
+
+.footer {
+  background: white;
+  padding: 30px;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 40px;
+}
