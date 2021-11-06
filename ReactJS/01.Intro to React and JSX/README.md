@@ -1,3 +1,6 @@
+# Overview 
+The apps above are basic react apps, that were created to exercise the basic functional component structure in react.
+
 # Content
 - React Overview;
 - Intallation;
