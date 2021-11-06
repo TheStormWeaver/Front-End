@@ -1,5 +1,5 @@
 # Overview 
-The apps above are basic react apps, that were created to exercise the basic functional component structure in react.
+The apps above are basic react apps, that were created to exercise the basic functional component structure in react, with the addition of a demo app to test out some of the basics in react.
 
 # Content
 - React Overview;
