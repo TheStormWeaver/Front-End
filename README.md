@@ -50,3 +50,9 @@ The repo contains almost every Lab and Excercise Homework from the Softuni Front
   <img src="https://img.shields.io/badge/Work-in%20progress-yellow" alt="progress" width="11%">
   <img src="https://img.shields.io/badge/License-MT-blueviolet" alt="license" width="8%">
 </p>
+
+# Certificates
+<p align="center">
+<a href="file:///C:/Users/Alexander/Desktop/HTML%20&%20CSS%20-%20September%202021%20-%20Certificate.jpeg">
+  <img width="100%" src="https://softuni.bg/certificates/certificates/converttoimage/108973?code=3fd339be" alt="JS Back-End Certificate">
+  </a>
