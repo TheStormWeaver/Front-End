@@ -54,5 +54,5 @@ The repo contains almost every Lab and Excercise Homework from the Softuni Front
 # Certificates
 <p align="center">
 <a href="https://softuni.bg/certificates/certificates/converttoimage/117698?code=b2bddfdf">
-  <img width="100%" src="https://softuni.bg/certificates/certificates/converttoimage/108973?code=3fd339be" alt="JS Back-End Certificate">
+  <img width="100%" src="https://softuni.bg/certificates/certificates/converttoimage/117698?code=b2bddfdf" alt="JS Back-End Certificate">
   </a>
