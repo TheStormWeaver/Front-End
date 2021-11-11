@@ -5,8 +5,8 @@ function TaskList() {
   let thirdColor = "lightblue";
   let person = {
     name: "Pesho",
-    age: 20
-  }
+    age: 20,
+  };
 
   return (
     <>

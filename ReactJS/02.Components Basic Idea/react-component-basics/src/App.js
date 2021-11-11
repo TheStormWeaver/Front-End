@@ -1,5 +1,6 @@
 import ToDoList from "./components/ToDoList"
 import TaskList from "./components/TaskList"
+import ForceList from "./components/ForceList"
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <main>
         <ToDoList />
         <TaskList />
+        <ForceList />
       </main>
 
       <footer>All rights reserved &copy;</footer>
