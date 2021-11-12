@@ -7,6 +7,6 @@
 
 
 # Materials
-- [ReactJS Components Deep Dive Presentation](https://github.com/TheStormWeaver/Front-End/files/7528358/03.React-JS-Components-Deep-Dive.pptx)
+- [ReactJS components deep dive presentation](https://github.com/TheStormWeaver/Front-End/files/7528358/03.React-JS-Components-Deep-Dive.pptx)
 
 
