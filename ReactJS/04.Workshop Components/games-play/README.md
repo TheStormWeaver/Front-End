@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About the project
+The project consists of a application, that focuses on testing CRUD operations on a "demo" site for games. It currently has implemented functionality for getting game data off the server and displaying it on the site page, as well as added in functionality that allows the view of the "details" page of every single game.
 
 ## Available Scripts
 
