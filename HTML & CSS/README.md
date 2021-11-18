@@ -21,6 +21,13 @@
 - Създаване на съвременни уеб сайтове
 - Възможност за създаване на статични уеб страници
 
+# Certificate
+<p align="center">
+  <a href="https://softuni.bg/certificates/certificates/converttoimage/117698?code=b2bddfdf">
+    <img width="100%" src="https://softuni.bg/certificates/certificates/converttoimage/117698?code=b2bddfdf" alt="HTML & CSS Certificate">
+  </a>
+</p>
+
 # Course Links
 
 - [Front-End Course Link](https://softuni.bg/modules/95/front-end/1304)
