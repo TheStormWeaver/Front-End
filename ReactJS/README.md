@@ -16,7 +16,7 @@
 - Клиентски приложения с React
 - Компонентно-базирани приложения
 
-# Course Links
+# Линкове към курсовете
 
 - [Front-End Course Link](https://softuni.bg/modules/95/front-end/1304)
 
