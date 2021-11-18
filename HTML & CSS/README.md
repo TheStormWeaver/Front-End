@@ -21,7 +21,7 @@
 - Създаване на съвременни уеб сайтове
 - Възможност за създаване на статични уеб страници
 
-# Course Links
+# Линкове към курсовете
 
 - [Front-End Course Link](https://softuni.bg/modules/95/front-end/1304)
 
