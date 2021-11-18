@@ -21,18 +21,18 @@
 - Създаване на съвременни уеб сайтове
 - Възможност за създаване на статични уеб страници
 
+# Course Links
+
+- [Front-End Course Link](https://softuni.bg/modules/95/front-end/1304)
+
+- [HTML & CSS Course Link](https://softuni.bg/trainings/3530/html-and-css-september-2021/internal)
+
 # Certificate
 <p align="center">
   <a href="https://softuni.bg/certificates/certificates/converttoimage/117698?code=b2bddfdf">
     <img width="100%" src="https://softuni.bg/certificates/certificates/converttoimage/117698?code=b2bddfdf" alt="HTML & CSS Certificate">
   </a>
 </p>
-
-# Course Links
-
-- [Front-End Course Link](https://softuni.bg/modules/95/front-end/1304)
-
-- [HTML & CSS Course Link](https://softuni.bg/trainings/3530/html-and-css-september-2021/internal)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Storm-Weaver-blue" alt="storm" width="10%">
