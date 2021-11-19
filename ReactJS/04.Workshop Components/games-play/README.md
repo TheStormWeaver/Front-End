@@ -3,7 +3,7 @@ The project consists of a application, that focuses on testing CRUD operations o
 
 ## To start the Project
 - You will need to enter the "server" folder, enter CMD and write "node server.js" within the directory of the server.
-- After the previous step, enter the project directory "games-play" and then run the command npm start
+- After the previous step, enter the project directory "games-play" and then run the command npm start in your preferred ide
 ## Available Scripts
 
 In the project directory, you can run:
