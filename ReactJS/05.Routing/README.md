@@ -5,11 +5,11 @@
 - You will need to enter the "server" folder, enter CMD and write "node server.js" within the directory of the server.
 - After the previous step, enter the project directory "games-play" and then run the command npm start in your preferred ide
 
-## Content
+### Content
 - Virtual DOM;
 - Routing Overview;
 - React Router;
 - React Lazy and Suspense.
 
-## Materials
+### Materials
 [React JS Routing Presentation](https://github.com/TheStormWeaver/Front-End/files/7564176/04.-React-JS-Routing.pptx)
