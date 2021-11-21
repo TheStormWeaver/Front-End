@@ -1,5 +1,6 @@
-# About
-"counter-app" is an app, that focuses on testing some of the basic functionalities of react. It consists of an basic counter app, that adds in +1 to the counter on every click, while "react-component-basics" focuses on different approaches to displaying components and an overall showcase of the basics of components  in react.
+# Overview 
+The apps above are basic react apps, that were created to exercise the basic functional component structure in react, with
+"counter-app", consisting of an basic counter app, that adds in +1 to the counter on every click. "react-component-basics" focuses on different approaches to displaying components and an overall showcase of the basics of components in react.
 
 ## Content
 - Components Overview;
