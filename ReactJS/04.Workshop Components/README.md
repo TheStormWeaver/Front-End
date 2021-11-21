@@ -1,5 +1,5 @@
 # About
-"games-play" is an app, that focuses on testing CRUD operations on a "demo" site for games, with placeholder routing. More information can be found inside the games-play README.md
+"games-play" is an app, that focuses on testing CRUD operations on a "demo" site for games, that has implemented CRUD operations used for testing and with current placeholder routing. More information can be found inside the games-play README.md
 
 ## To start the Project
 - You will need to enter the "server" folder, enter CMD and write "node server.js" within the directory of the server.
