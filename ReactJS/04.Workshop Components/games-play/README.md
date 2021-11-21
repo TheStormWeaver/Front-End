@@ -1,9 +1,10 @@
 # About the project
-The project consists of a application, that focuses on testing CRUD operations on a "demo" site for games. The app also contains a server app that is required to run at all times for the requests to work.It currently has implemented functionality for getting game data off the server and displaying it on the site page, as well as added in functionality that allows the view of the "details" page of every single game. Note: this app uses a simple version self made version of a router and is used for a "placeholder", before the actual Routing lecture.
+The project consists of a application, that focuses on testing CRUD operations on a "demo" site for games. The app also contains a server app that is required to run at all times for the requests to work.It currently has implemented functionality for getting game data off the server and displaying it on the site page, as well as added in functionality that allows the view of the "details" page of every single game. Note: this app uses a simple version self made version of a router and routing, and is used as a "placeholder", before the actual Routing lecture.
 
 ## To start the Project
 - You will need to enter the "server" folder, enter CMD and write "node server.js" within the directory of the server.
-- After the previous step, enter the project directory "games-play" and then run the command npm start in your preferred ide
+- After the previous step, enter the project directory "games-play" and then run the command npm start in your preferred ide.
+
 ## Available Scripts
 
 In the project directory, you can run:
