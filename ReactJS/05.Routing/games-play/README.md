@@ -1,5 +1,5 @@
 # About Project
-The project consists of an application, that focuses on testing CRUD operations on a "demo" site for games. The app also contains a server app that is required to run at all times for the requests to work. It currently has the overall CRUD operations for "getting" games from teh DB and viewing their details, with an added in sort by date. Note: this app uses V5 of react-router-dom, so all functionalities that are associated with routing are tied into V5.
+The project consists of an application, that focuses on testing CRUD operations on a "demo" site for games. The app also contains a server app that is required to run at all times for the requests to work. It currently has the overall CRUD operations for "getting" games from the DB and viewing their details, with an added in sort by date. Note: this app uses V5 of react-router-dom, so all functionalities that are associated with routing are tied into V5.
 
 ## Available Scripts
 
