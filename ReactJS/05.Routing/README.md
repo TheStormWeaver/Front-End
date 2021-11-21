@@ -1,5 +1,5 @@
 # About
-"games-play" is an app, that focuses on testing CRUD operations on a "demo" site for games, with placeholder authentication and V5 of react-router-dom. The app requires 
+"games-play" is an app, that focuses on testing CRUD operations on a "demo" site for games, with placeholder authentication and V5 of react-router-dom. More information can be found inside of the games-play README.md
 
 ## To start the Project
 - You will need to enter the "server" folder, enter CMD and write "node server.js" within the directory of the server.
