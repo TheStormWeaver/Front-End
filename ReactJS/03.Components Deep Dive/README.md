@@ -5,7 +5,7 @@
 - You will need to enter the "server" folder, enter CMD and write "node server.js" within the directory of the server.
 - After the previous step, enter the project directory "games-play" and then run the command npm start in your preferred ide
 
-# Content
+### Content
 - Lists & Keys;
 - Component Lifecycle;
 - Higher-Order-Components;
@@ -13,7 +13,7 @@
 - Fetching Data.
 
 
-# Materials
+### Materials
 - [ReactJS components deep dive presentation](https://github.com/TheStormWeaver/Front-End/files/7528358/03.React-JS-Components-Deep-Dive.pptx)
 
 
