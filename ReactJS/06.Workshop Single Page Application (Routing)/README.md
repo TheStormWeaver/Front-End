@@ -4,3 +4,6 @@ The above app "pet-my-pet" focuses on testing CRUD operations on a "demo" site f
 ## To start the Project
 - You will need to enter the "server" folder, enter CMD and write "node server.js" within the directory of the server.
 - After the previous step, enter the project directory "pet-my-pet" and then run the command npm start in your preferred ide
+
+### Materials
+- [PetMyPet Exercise Document](https://github.com/TheStormWeaver/Front-End/files/7576405/PetMyPet.-.docx)
