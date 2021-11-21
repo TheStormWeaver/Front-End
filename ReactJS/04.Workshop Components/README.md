@@ -5,7 +5,7 @@
 - You will need to enter the "server" folder, enter CMD and write "node server.js" within the directory of the server.
 - After the previous step, enter the project directory "games-play" and then run the command npm start in your preferred ide
 
-# Materials
+### Materials
 - [GamesPlay App Exercise Documentation](https://github.com/TheStormWeaver/Front-End/files/7533666/GamesPlay_.docx)
 
 
