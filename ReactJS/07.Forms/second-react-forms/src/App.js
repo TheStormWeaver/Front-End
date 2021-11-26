@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import HobbyList from "./components/HobbyList";
 
 import "./App.css";
 
@@ -6,7 +7,7 @@ function App() {
   const [username, setUsername] = useState("Name") //controlled component
   const [services, setServices] = useState([])
   const [isValid, setIsValid] = useState(false);
-  const passwordRef = useRef() //combines controlled and uncontrolled component and it is better to use it rarely
+  const passwordRef = useRef()
 
   useEffect(() => {
     fetch("http://localhost:3030/jsonstore/services")
@@ -87,6 +88,8 @@ function App() {
 
         <input type="submit" value="Login" className="login-btn" />
       </form>
+
+      <HobbyList title="My favorite hobbies" />
     </div>
   );
 }
