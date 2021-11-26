@@ -2,7 +2,7 @@
 The first two projects above contain two different versions of the same app, the first is used as a demo to test uncontrolled components, consisting of a login form that has a username, password, remember me and dynamically loads different types of services. 
 The second app is used to test controlled components, while having the same functionality, but with an added in username clear, that triggers every time a different service is toggled and has implemented an list that shows all hobbies that are saved in the server, while focusing more on the controlled side of components.
 
-The third and final project is an updated version of "pet-my-pet" from "06.Workshop Single Page Application (Routing)", that has an added in type and category classification on every pet, that focuses on demonstrating some of the abilities of uncontrolled components.
+The third and final project is an updated version of "pet-my-pet" from "06.Workshop Single Page Application (Routing)", that has an added in type and category classification on every pet (during the creaton of a pet), that focuses on demonstrating some of the abilities of uncontrolled components.
 
 ## To start the Projects
 - You will need to enter the "server" folder, enter CMD and write "node server.js" within the directory of the server.
