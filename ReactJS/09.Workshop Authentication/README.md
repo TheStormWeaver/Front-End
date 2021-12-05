@@ -1,4 +1,4 @@
- About
+# About
 The project is an updated version of "pet-my-pet" from "07.Forms", that has implemented Authentication.
 
 ## To start the Project
