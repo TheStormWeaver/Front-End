@@ -9,7 +9,7 @@
 
 ## To start the Projects
 - You will need to enter the "server" folder, enter CMD and write "node server.js" within the directory of the server.
-- After the previous step, enter the project directory of the react project and then run the command npm start in your preferred ide.
+- After the previous step, enter the project directory of the react app and then run the command npm start in your preferred ide.
 
 ### Content
 - Controlled Forms;
