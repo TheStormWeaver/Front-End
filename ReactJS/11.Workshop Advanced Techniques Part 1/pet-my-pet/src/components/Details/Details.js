@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 
 import * as petService from "../../services/petService";
@@ -6,17 +6,14 @@ import { useAuthContext } from "../../contexts/AuthContext";
 
 import ConfirmDialogue from "../Common/ConfirmDialogue/ConfirmDialogue";
 import { Button } from "react-bootstrap";
+import usePetState from "../../hooks/usePetState";
 
 const Details = () => {
   const navigate = useNavigate();
   const { user } = useAuthContext();
-  const [pet, setPet] = useState({});
-  const [showDeleteDialogue, setShowDeleteDialogue] = useState(false);
   const { petId } = useParams();
-
-  useEffect(() => {
-    petService.getOne(petId).then((petResult) => setPet(petResult));
-  }, [petId]);
+  const [pet, setPet] = usePetState(petId);
+  const [showDeleteDialogue, setShowDeleteDialogue] = useState(false);
 
   const deleteHandler = (e) => {
     e.preventDefault();
@@ -62,7 +59,7 @@ const Details = () => {
 
   const ownerButtons = (
     <>
-      <Link className="button" to="/edit">
+      <Link className="button" to={`/edit/${pet._id}`}>
         Edit
       </Link>
       <a className="button" href="#" onClick={deleteClickHandler}>

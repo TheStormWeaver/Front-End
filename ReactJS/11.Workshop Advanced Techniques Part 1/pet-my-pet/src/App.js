@@ -32,6 +32,7 @@ function App() {
               <Route path="/my-pets" element={<MyPets />}></Route>
               <Route path="/create" element={<Create />}></Route>
               <Route path="/details/:petId" element={<Details />}></Route>
+              <Route path="/edit/:petId" element={<Edit />}></Route>
             </Routes>
           </main>
 
