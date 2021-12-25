@@ -22,6 +22,14 @@
 
 - [ReactJS Course Link](https://softuni.bg/trainings/3497/reactjs-november-2021/internal)
 
+## Certificate
+<p align="center">
+  <a href="https://softuni.bg/certificates/certificates/converttoimage/122661?code=4c9f5b48">
+    <img width="100%" src="https://softuni.bg/certificates/certificates/converttoimage/122661?code=4c9f5b48" alt="ReactJS Certificate">
+  </a>
+</p>
+
+
 <p align="center">
   <img src="https://img.shields.io/badge/Storm-Weaver-blue" alt="storm" width="10%">
   <img src="https://img.shields.io/badge/Open%20Source-Project-red" alt="project" width="13%">
