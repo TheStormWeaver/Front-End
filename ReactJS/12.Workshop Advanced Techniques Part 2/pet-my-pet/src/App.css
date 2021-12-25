@@ -1,0 +1,20 @@
+#site-content {
+  text-align: center;
+}
+
+.logo {
+  fill: #5f9ea0;
+  width: 60%;
+}
+
+.paw-heart {
+  fill: #234465;
+}
+
+div.actions a {
+  height: 100%;
+}
+
+form legend {
+  top: -3.4rem;
+}
