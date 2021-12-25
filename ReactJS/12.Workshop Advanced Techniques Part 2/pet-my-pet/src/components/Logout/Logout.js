@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useEffect } from "react";
 import { Navigate, useNavigate } from "react-router";
 
 import * as authService from "../../services/authService";

@@ -30,12 +30,12 @@ export const Logout = (token) => {
   });
 };
 
-export const getUsername = () => {
-  let username = localStorage.getItem("username");
+export const getUser = () => {
+  let username = localStorage.getItem('username');
 
   return username;
 };
 
 export const isAuthenticated = () => {
-  return Boolean(getUsername());
+  return Boolean(getUser())
 };

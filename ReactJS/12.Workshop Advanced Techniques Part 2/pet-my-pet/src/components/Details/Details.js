@@ -1,19 +1,32 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
 
 import * as petService from "../../services/petService";
+import * as likeService from "../../services/likeService";
+
+import {
+  useNotificationContext,
+  types,
+} from "../../contexts/NotificationContext";
 import { useAuthContext } from "../../contexts/AuthContext";
 
 import ConfirmDialogue from "../Common/ConfirmDialogue/ConfirmDialogue";
-import { Button } from "react-bootstrap";
 import usePetState from "../../hooks/usePetState";
 
 const Details = () => {
   const navigate = useNavigate();
   const { user } = useAuthContext();
+  const { addNotification } = useNotificationContext();
   const { petId } = useParams();
   const [pet, setPet] = usePetState(petId);
   const [showDeleteDialogue, setShowDeleteDialogue] = useState(false);
+
+  useEffect(() => {
+    likeService.getPetLikes(petId).then((likes) => {
+      setPet((state) => ({ ...state, likes }));
+    });
+  }, []);
 
   const deleteHandler = (e) => {
     e.preventDefault();
@@ -32,28 +45,20 @@ const Details = () => {
     setShowDeleteDialogue(true);
   };
 
-  const onClose = (e) => {
-    e.preventDefault();
-
-    setShowDeleteDialogue(false);
-  };
-
   const likeButtonClick = () => {
-    if (pet.likes.includes(user._id)) {
-      //todo: add notification
-      console.log("User already liked");
+    if (user._id === pet._ownerId) {
       return;
     }
 
-    let likes = [...pet.likes, user._id];
-    let likedPet = { ...pet, likes };
+    if (pet.likes.includes(user._id)) {
+      addNotification("You cannot like again");
+      return;
+    }
 
-    petService.like(pet._id, likedPet, user.accessToken).then((resData) => {
-      console.log(resData);
-      setPet((state) => ({
-        ...state,
-        likes,
-      }));
+    likeService.like(user._id, petId).then(() => {
+      setPet((state) => ({ ...state, likes: [...state.likes, user._id] }));
+
+      addNotification("Successfuly liked a cat :)", types.success);
     });
   };
 
@@ -69,7 +74,7 @@ const Details = () => {
   );
 
   const userButtons = (
-    <Button className="button" href="#" onClick={likeButtonClick}>
+    <Button onClick={likeButtonClick} disabled={pet.likes?.includes(user._id)}>
       Like
     </Button>
   );
@@ -78,7 +83,7 @@ const Details = () => {
     <>
       <ConfirmDialogue
         show={showDeleteDialogue}
-        onClose={onClose}
+        onClose={() => setShowDeleteDialogue(false)}
         onSave={deleteHandler}
       />
       <section id="details-page" className="details">
@@ -94,7 +99,7 @@ const Details = () => {
 
             <div className="likes">
               <img className="hearts" src="/images/heart.png" />
-              <span id="total-likes">Likes: {pet.likes?.length}</span>
+              <span id="total-likes">Likes: {pet.likes?.length || 0}</span>
             </div>
           </div>
         </div>

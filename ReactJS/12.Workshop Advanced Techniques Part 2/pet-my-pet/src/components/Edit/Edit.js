@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router";
 
 import * as petService from "../../services/petService";
-import { useAuthContext } from "../../contexts/AuthContext";
 
 import usePetState from "../../hooks/usePetState";
 import { Alert } from "react-bootstrap";
@@ -20,7 +19,6 @@ const Edit = () => {
   const { petId } = useParams();
   const [errors, setErrors] = useState({ name: null });
   const [pet, setPet] = usePetState(petId);
-  const { user } = useAuthContext();
 
   const navigate = useNavigate();
 
@@ -49,7 +47,6 @@ const Edit = () => {
   };
 
   const nameChangeHandler = (e) => {
-    // the function should be used in a helper function, to not overflow the main component with code
     let currentName = e.target.value;
     if (currentName.length < 3) {
       setErrors((state) => ({
@@ -62,7 +59,7 @@ const Edit = () => {
         name: "Your name should be not more than 15 characters",
       }));
     } else {
-      setErrors((state) => ({ ...state, name: false })); // or we can use  name: null
+      setErrors((state) => ({ ...state, name: false }));
     }
   };
 
