@@ -4,5 +4,5 @@ The project is an updated version of "pet-my-pet" from "11.Workshop Advanced Tec
 ## Running the project
 Enter into the project directory of "advanced-technqiues" and then run the command npm start in your preferred ide.
 
-**Note: The back-end rest server is hosted on heroku and you will not need to run it on your device, unlike with some of other projects**
+**Note: The back-end rest server is hosted on heroku and you will not need to run it on your device, unlike with some of other projects.**
 
