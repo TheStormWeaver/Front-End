@@ -57,3 +57,9 @@ The repo contains almost every Lab, Excercise & Homework from the Softuni Front-
     <img width="100%" src="https://softuni.bg/certificates/certificates/converttoimage/117698?code=b2bddfdf" alt="HTML & CSS Certificate">
   </a>
 </p>
+
+<p align="center">
+  <a href="https://softuni.bg/certificates/certificates/converttoimage/122661?code=4c9f5b48">
+    <img width="100%" src="https://softuni.bg/certificates/certificates/converttoimage/122661?code=4c9f5b48" alt="ReactJS Certificate">
+  </a>
+</p>
