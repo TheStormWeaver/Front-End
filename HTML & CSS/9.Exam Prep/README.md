@@ -1,6 +1,6 @@
 # Content
 - Includes the solutions for the 3 exam problems
-- HTML & CSS Retake Exam -12 August 2020
+- HTML & CSS Retake Exam -15 December 2020
 - [Judge exam link with all of the resources](https://judge.softuni.org/Contests/Practice/Index/2776#0)
 
 # Materials
